@@ -41,7 +41,7 @@ setuptools.setup(
     install_requires=[
         'rapidfuzz',
         'traitlets',
-        'jupyter_core>=6.0',
+        'jupyter_core',
         'nbgrader>=0.7.0',
     ],
     entry_points={
